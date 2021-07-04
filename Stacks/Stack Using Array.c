@@ -46,7 +46,7 @@ int main()
 
         case 3 :peak();
                 break;
-        case 4 :void traverse();
+        case 4 :traverse();
                 break;
         case 5 :exit(1);
         default :printf("Invalid Choice Entered /n");
