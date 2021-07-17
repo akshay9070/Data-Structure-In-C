@@ -15,6 +15,7 @@ struct node*create_node(int data)
     n->data=data;//setting data of node
     n->left=NULL;//setting left children to NULL
     n->right=NULL;//setting right children to NULL
+    return n;
     
 }
 
