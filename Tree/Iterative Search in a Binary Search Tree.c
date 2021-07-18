@@ -37,11 +37,11 @@ struct node* search(struct node* root, int key)
         }
         else if(root->data>key)
         {
-            return search(root->left,key);
+            root=root->left;
         }
         else
         {
-            return search(root->right,key);
+            root=root->right;
         }
     }
     return NULL;
