@@ -1,0 +1,4 @@
+{
+    "terminal.integrated.allowMnemonics": true,
+    "code-runner.runInTerminal": true
+}
